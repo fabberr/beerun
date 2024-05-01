@@ -24,7 +24,7 @@ function display_help {
     echo "      The directory is expected to contain at least these files:"
     echo
     echo "          • A \`main.cpp\` source file to be compiled and linked with the following options:"
-    echo "     \`/usr/bin/g++ -std=c++20 -O2 -lm -o solution main.cpp\`"
+    echo "            \`/usr/bin/g++ -std=c++20 -O2 -lm -o solution main.cpp\`"
     echo
     echo "          • A \`input.txt\` text file containing the test cases that will be piped into the produced executable."
     echo "            If no such file exists in the specified directory, the solution will be built but the test cases will be skipped."
@@ -57,11 +57,11 @@ function display_help {
 }
 
 function display_version {
-    echo "File:        beerun.sh"
-    echo "Version:     1.0.0"
-    echo "Author:      https://github.com/fabberr"
-    echo "Description: Build and run solutions for https://judge.beecrowd.com problems implemented in C++."
-    echo "Licence:     GPLv3 (https://www.gnu.org/licenses/gpl-3.0.txt)"
+    echo "File:           beerun.sh"
+    echo "Version:        1.0.1"
+    echo "Author:         https://github.com/fabberr"
+    echo "Description:    Build and run solutions for https://judge.beecrowd.com problems implemented in C++."
+    echo "Licence:        GPLv3 (https://www.gnu.org/licenses/gpl-3.0.txt)"
 }
 
 function clean_solution {
