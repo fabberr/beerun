@@ -265,7 +265,7 @@ if [ -z "${solution_directory}" ] || [ ! -d "${solution_directory}" ]; then
     echo "[beerun] Error: Invalid argument provided for <solution_directory>."
     echo "         \"${solution_directory}\" is not a valid directory."
     echo
-    echo "Usage $0 [OPTIONS] <solution_directory>"
+    echo "Usage: $0 [OPTIONS] <solution_directory>"
     exit 1
 fi
 
