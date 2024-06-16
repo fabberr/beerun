@@ -132,6 +132,7 @@ function new_solution {
 	#include <sstream>
 	#include <algorithm>
 	#include <utility>
+	#include <ranges>
 	#include <limits>
 	#include <memory>
 	#include <new>
