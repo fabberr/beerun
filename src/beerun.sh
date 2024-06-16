@@ -58,7 +58,7 @@ function display_help {
 
 function display_version {
     echo "File:           beerun.sh"
-    echo "Version:        1.0.2"
+    echo "Version:        1.0.3"
     echo "Author:         https://github.com/fabberr"
     echo "Description:    Build and run solutions for https://judge.beecrowd.com problems implemented in C++."
     echo "Licence:        GPLv3 (https://www.gnu.org/licenses/gpl-3.0.txt)"
@@ -136,6 +136,7 @@ function new_solution {
 	#include <limits>
 	#include <memory>
 	#include <new>
+	#include <type_traits>
 	
 	// C stdlib
 	#include <cstddef>
